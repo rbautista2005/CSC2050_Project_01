@@ -1,0 +1,15 @@
+# Format: argument | expected_output
+
+0 | 1
+1 | 1
+5 | 120
+6 | 720
+
+# Spaces around the | may vary
+3|6
+    4    |    24
+7 |5040
+
+# Larger values
+10 | 3628800
+12 | 479001600
